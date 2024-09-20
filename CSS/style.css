@@ -1,0 +1,134 @@
+.gambar-1{
+    width: 100%;
+    height: auto;
+}
+
+.stiky {
+    position: fixed;
+    right: 0;
+    bottom: 40px;
+    /* top: 50%; */
+    transform: translateY(-50%);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .stiky .card-body {
+    background-color: orangered;
+  }
+
+  .stiky .card-body a{
+    color: white;
+    text-decoration: none;
+  }
+  /* .card-body{
+    width: 150px;
+    height: 130px;
+  } */
+  
+  .custom-text{
+    position: absolute;
+    top: 0;
+    /* text-align: center; */
+  }
+.box{
+    height: 800px;
+}
+
+  @media (max-width: 768px) {
+    .navbar-nav {
+      flex-direction: column;
+    }
+    .navbar-nav .nav-item {
+      margin-bottom: 10px;
+    }
+  }
+
+  .carousel-item {
+    position: relative;
+}
+
+.custom-text {
+    position: absolute;
+    background-color: rgba(0, 0, 255, 0.4); /* Latar belakang biru dengan opasitas 60% */
+    padding: 10px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: #fff; /* Warna teks putih */
+}
+
+/* Slider */
+
+.slider {
+  vertical-align: middle;
+	padding-top: 2.375rem;
+	padding-bottom: 2.5rem;
+	background-color: #fbfbfb;
+}
+
+.slider h6 {
+	margin-bottom: 0.75rem;
+	text-align: left;
+}
+
+.slider .slider-container {
+	position: relative;
+}
+
+.slider .swiper-container {
+	position: static;
+	width: 90%;
+	text-align: center;
+}
+
+.slider .swiper-button-prev:focus,
+.slider .swiper-button-next:focus {
+	outline: none;
+}
+
+.slider .swiper-button-prev {
+	left: -1.5rem;
+	background-size: 1.125rem 1.75rem;
+}
+
+.slider .swiper-button-next {
+	right: 1.5rem;
+	background-size: 1.125rem 1.75rem;
+}
+
+.slider .card {
+	position: relative;
+	border: none;
+	background-color: transparent;
+}
+
+.slider .card-image {
+	width: 50%;
+	height: auto;
+	margin-left: auto;
+}
+
+.slider .card .card-body {
+	padding-bottom: 0;
+}
+
+.slider .testimonial-text {
+	margin-bottom: 0.625rem;
+}
+
+.slider .testimonial-author {
+	color: #484a46;
+}
+.footer{
+  padding-left: 5rem;
+}
+footer p {
+  color: white;
+}
+
+footer h3{
+  color: white;
+}
